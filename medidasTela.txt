@@ -1,0 +1,5 @@
+medidasTela
+
+Celular (Iphone SE) = < x 480
+Tablet (Ipad mini) = 480 x 1299
+Desktop (mediano) = 1300 >

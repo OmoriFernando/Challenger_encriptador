@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <main>
+        <section class="logoAlura">
+                <img class="logo_alura" src="/assets/logoalura.png" alt="Logo da Alura">
+            </section>
+        <section class="principal">
+            <section class="caixaTexto">
+                <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        
+                <div class="informacao">
+                    <img src="/assets/exclamacao.png" alt="">
+                    <h6 class="alerta">Apenas letras minúsculas e sem acento</h6>
+                </div>
+        
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div> 
+            </section>
+        </section>
+        
+        <section class="quadro">
+            <h4>Nenhuma mensagem<br> encontrada</h4>
+            <h5>Digite um texto que você deseja<br> criptografar ou descriptografar.</h5>
+            <textarea class="mensagem" cols="20" rows="13"></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+    <footer class="rodape">Desenvolvido por Fernando Omori</footer>
+</body>
+</html>
